@@ -14,21 +14,8 @@ if "%~1"=="" (
     pause
     exit /b 1
 )
-
 :: 检查服务
 curl -s http://127.0.0.1:18765/health >nul 2>&1
 if %errorlevel% neq 0 (
     echo [错误] 搜索服务未运行，正在启动...
-    start "" /min "%~dp0start_server.bat"
-    timeout /t 15 >nul
-)
-
-:: 执行搜索
-echo.
-echo 搜索: %~1
-echo ========================================
-curl -s -X POST http://127.0.0.1:18765/search ^
-  -H "Content-Type: application/json" ^
-  -d "{\"query\": \"%~1\", \"max_results\": 5}"
-echo.
-echo ========================================
+    start ............
