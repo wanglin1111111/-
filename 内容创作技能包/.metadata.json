@@ -1,8 +1,74 @@
 {
   "name": "内容创作技能",
+  "name_en": "Content Creation Skill",
   "version": "1.0.0",
-  "description": "专业的内容创作辅助工具，帮助用户进行文章、文案、脚本等内容的创作",
-  "author": "用户自定义",
+  "description": "专业的AI辅助内容生产工具，覆盖文章、文案、脚本等各类内容的创作全流程",
+  "description_en": "Professional AI-assisted content production tool covering the full workflow of articles, copywriting, scripts and various content creation",
+  "author": "AI Skill Team",
   "created": "2026-05-02",
-  "category": "content-creation"
+  "updated": "2026-05-02",
+  "category": "content-creation",
+  "tags": [
+    "内容创作",
+    "文案写作",
+    "新媒体运营",
+    "营销策划",
+    "创意生成",
+    "多平台适配",
+    "内容优化"
+  ],
+  "features": [
+    {
+      "name": "create-outline",
+      "description": "文章结构规划",
+      "use_cases": ["公众号文章", "博客文章", "新闻稿", "白皮书", "行业报告"]
+    },
+    {
+      "name": "polish-text",
+      "description": "文案润色优化",
+      "use_cases": ["产品介绍", "推广文案", "品牌故事", "营销话术"]
+    },
+    {
+      "name": "generate-ideas",
+      "description": "创意点子生成",
+      "use_cases": ["标题创意", "角度创意", "形式创意", "话题创意"]
+    },
+    {
+      "name": "adapt-platform",
+      "description": "多平台适配改写",
+      "use_cases": ["小红书", "抖音", "公众号", "微博", "知乎", "B站"]
+    }
+  ],
+  "target_audience": [
+    "新媒体运营人员",
+    "内容创作者",
+    "品牌营销人员",
+    "自媒体博主",
+    "电商运营",
+    "知识付费讲师"
+  ],
+  "supported_platforms": [
+    "小红书",
+    "抖音",
+    "快手",
+    "公众号",
+    "微博",
+    "知乎",
+    "B站",
+    "今日头条",
+    "百家号"
+  ],
+  "content_types": [
+    "文章",
+    "文案",
+    "脚本",
+    "标题",
+    "大纲",
+    "slogan",
+    "故事"
+  ],
+  "complexity_level": "intermediate",
+  "language_support": ["中文", "English"],
+  "documentation_url": "https://github.com/wanglin1111111/-/tree/main/内容创作技能包",
+  "license": "MIT"
 }
